@@ -1,0 +1,69 @@
+*, *::before, *::after {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            padding: 1em;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav > ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+        }
+        li a{
+            color: black;
+            font-size: large;
+        }
+        .footer{
+            display: flex;
+            gap: 5vh;
+            justify-content: space-around;
+        }
+        .legal-loturak{
+            display: flex;
+            flex-direction: column;
+        }
+        .legal-loturak li{
+            list-style: none;
+        }
+        .legal-loturak a{
+            color: black;
+            text-decoration: underline;
+        }
+        .legal-loturak a:hover{
+            text-decoration: none;
+        }
+        .sare-sozialak{
+            display: flex;
+            flex-direction: row;
+            gap: 5%;
+        }
+        .sare-sozialak a{
+            color: black;
+        }
+        .sare-sozialak img{
+            width: 30px;
+            height: 30px;
+        }
+    
