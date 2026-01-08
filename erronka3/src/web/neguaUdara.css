@@ -1,0 +1,75 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txamarrak{
+    display: flex;
+    flex-direction: column;
+}
+.txamarrak h1{
+    padding: 5%;
+}
+.txamarrak p{
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+}
+.txamarrak img{
+    width: 45vh;
+    height: auto;
+    align-items: center;
+}
+.kamisetak {
+    display: flex;
+    flex-direction: column;
+}
+.kamisetak h1{
+    padding: 5%;
+}
+.kamisetak p{
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+}
+.kamisetak img{
+    width: 45vh;
+    height: auto;
+    align-items: center;
+}
+.biserak{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+.biserak h1{
+    padding: 5%;
+}
+.biserak p{
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+}
+.biserak img{
+    width: 45vh;
+    height: auto;
+    align-items: center;
+}
+.txanoak{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+.txanoak h1{
+    padding: 5%;
+}
+.txanoak p{
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+}
+.txanoak img{
+    width: 45vh;
+    height: auto;
+    align-items: center;
+}

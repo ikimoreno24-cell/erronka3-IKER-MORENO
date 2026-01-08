@@ -1,0 +1,23 @@
+.kamisetak{
+    display: flex;
+    float: left;    
+    padding-left: 11%;
+    gap: 15%;
+    margin-bottom: 3%;
+}
+h1{
+    text-align: center;
+    padding: 2%;
+}
+.kamisetak img{
+    width: 45vh;
+    height: auto;
+}
+.straw img{
+    width: 40.5vh;
+    height: auto;
+}
+.cat img{
+    width: 40.5vh;
+    height: 50vh;
+}
