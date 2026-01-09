@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="headerFooter.css">
     <link rel="stylesheet" href="arropa.css">
+    <link rel="stylesheet" href="iragazkia.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
 </head>
@@ -27,7 +28,7 @@
                 <li><a href="arropa.html">ARROPA</a></li>
                 <li><a href="negua.html">NEGUA</a> </li>
                 <li><a href="udara.html">UDARA</a></li>
-                <li><a href="#">SASKIA</a></li>
+                <li><a href="saskia.html">SASKIA</a></li>
             </ul>
         </nav>
 
@@ -35,69 +36,21 @@
     </header>
 
     <main>
-        <h1>KAMISETAK</h1>
-        <div class="kamisetak">
-            <div class="milan">
-                <p>MILAN BORRAGOMA KAMISETA: 45,40€ </p>
-                <a><img src="img/milan.webp"></a>
-            </div> 
-            <div class="straw"> 
-                <p>THE GREAT CREW: 14,99€ </p>
-                <a><img src="img/straw.jpg"></a>
-            </div>
-            <div class="addict">
-                <p> FULL ADDICT FULL GEAR RABBIT: 39,00€ </p>
-                <a><img src="img/rabbit.jpg"></a>
-            </div>
-        </div>
-        <div class="kamisetak">
-            <div class="psicopato">
-                <p>PSICOPATO: 14,99€</p>
-                <a><img src="img/psicopato.jpg"></a>
-            </div>
-            <div class="cat">
-                <p>COFFE CAT IN MT FUJI: 14,99€</p>
-                <a><img src="img/cat.jpg"></a>
-            </div>
-            <div class="wave">
-                <p>THE GREAT FIBONACCI WAVE</p>
-                <a><img src="img/wave.jpg"></a>
-            </div>
-        </div>
-        
-       <div class="titulo">
-            <h1>PRAKAK</h1>
-            </div> 
-        <div class="prakak">
-            
-            <div class="milan">
-                <p>PRAKA HIDKAT GRISAK: 9,26€ </p>
-                <a><img src="img/galtzaGrisak.avif"></a>
-            </div> 
-            <div class="straw"> 
-                <p>PANAKO JOGERRAK: 7,96€ </p>
-                <a><img src="img/CAFE.avif"></a>
-            </div>
-            <div class="addict">
-                <p> PANAKO JOGER URDINAK: 19,12€ </p>
-                <a><img src="img/Cieloazul.avif"></a>
-            </div>
-        </div>
-        <div class="prakak2">
-            <div class="psicopato">
-                <p>CAQUI PRAKAK: 13,29€</p>
-                <a><img src="img/Galtzabeige.avif"></a>
-            </div>
-            <div class="cat">
-                <p>VINTAGE PRAKAK: 14,88€</p>
-                <a><img src="img/VINTAGE.avif"></a>
-            </div>
-            <div class="wave">
-                <p>CARGO PRAKAK</p>
-                <a><img src="img/CARGO.avif"></a>
-            </div>
-        </div>
-      
+          <h1>PRODUKTUAK</h1>
+
+  <div class="filter-buttons">
+    <button class="filter-btn" data-category="all">PRODUKTU GUZTIAK</button>
+    <button class="filter-btn" data-category="txanoak">TXANOAK</button>
+    <button class="filter-btn" data-category="kamisetak">KAMISETAK</button>
+    <button class="filter-btn" data-category="prakak">PRAKAK</button>
+    <button class="filter-btn" data-category="alkandorak">ALKANDORAK</button>
+    <button class="filter-btn" data-category="sudaderak">IZERDIKO JERTSEAK</button>
+    <button class="filter-btn" data-category="biserak">BISERAK</button>
+    <button class="filter-btn" data-category="jakak">JAKAK</button>
+    </div>
+
+  <div id="productContainer" class="product-container">
+  </div>
     </main>
 
     <footer class="footer">
